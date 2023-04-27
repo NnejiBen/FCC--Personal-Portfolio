@@ -74,6 +74,7 @@ html {
 
 #projects {
     background-color: #2A9D8F;
+    /* display: block; */
 }
 
 .projects--heading {
@@ -85,12 +86,10 @@ html {
 }
 
 #projects-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
-    padding: 40px;
-    flex-wrap: wrap;
-    
+    padding: 40px; 
 }
 
 .project {
