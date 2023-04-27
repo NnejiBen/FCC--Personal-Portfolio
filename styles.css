@@ -151,6 +151,13 @@ img {
     font-family: 'Oswald', sans-serif;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
 /* FOOTER SECTION */
 
 footer {
