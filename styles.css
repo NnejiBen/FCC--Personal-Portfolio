@@ -133,4 +133,15 @@ img {
 
 footer {
     background-color: #264653;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+hr {
+    border: 2px solid #E76F51;
+}
+
+footer p {
+    color: white;
 }
