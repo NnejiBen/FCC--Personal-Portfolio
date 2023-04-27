@@ -183,3 +183,7 @@ footer p {
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
 }
+
+footer a {
+    text-decoration: none;
+}
